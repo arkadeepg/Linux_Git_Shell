@@ -1,15 +1,15 @@
 ### List of some useful Linux commands:
 
-- clear : clear terminal
-- ls : list files/ folders in a directory
-- touch : create a file
-- man : manual for any command, usage: man ls
-- vim $filename : vim/ vi- text editor, open/ create/ modify any file
-- :q! - close without saving. ! - override
-- :wq - save and close
-- cat : display contents of the file
-- ./$filename : execute any file
-- chmod : modify permission of any file, ch-change mod-mode
+- `clear` : clear terminal
+- `ls` : list files/ folders in a directory
+- `touch` : create a file
+- `man` : manual for any command, usage: man ls
+- `vim` $filename : vim/ vi- text editor, open/ create/ modify any file
+- `:q!` - close without saving. ! - override
+- `:wq` - save and close
+- `cat` : display contents of the file
+- `./$filename` : execute any file
+- `chmod` : modify permission of any file, ch-change mod-mode
 ```
      - user   : u (owner)
      - group  : g
@@ -43,12 +43,12 @@
     'd': directory
     'i': symlink (shortcut to a file/directory)
 ```
-- history : check history of all commands used, usage- history | grep ls
-- pwd : present working directory
-- mkdir : (make directory)- create a directory
-- cd : (change directory)- move to a different directory
-- rm : (remove) delete file/ directory. -r recursively(all files/folders inside), -f force
-- nproc : check available CPU
-- free : check available memory
-- top : realtime dynamic view of system performance
+- `history` : check history of all commands used, usage- history | grep ls
+- `pwd` : present working directory
+- `mkdir` : (make directory)- create a directory
+- `cd` : (change directory)- move to a different directory
+- `rm` : (remove) delete file/ directory. -r recursively(all files/folders inside), -f force
+- `nproc` : check available CPU
+- `free` : check available memory
+- `top` : realtime dynamic view of system performance
 
