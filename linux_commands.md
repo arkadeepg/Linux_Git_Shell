@@ -10,7 +10,6 @@
 - cat : display contents of the file
 - ./$filename : execute any file
 - chmod : modify permission of any file, ch-change mod-mode
-```
      - user   : u (owner)
      - group  : g
      - others : o
@@ -42,7 +41,6 @@
     '-': file
     'd': directory
     'i': symlink (shortcut to a file/directory) 
-```
 - history : check history of all commands used, usage- history | grep ls
 - pwd : present working directory
 - mkdir : (make directory)- create a directory
