@@ -14,7 +14,7 @@
 - `git add .`: stage modified files
 - `git commit -m "$message"`: commit changes to local repo
 - `git clone`: create complete copy of a remote repo
-- `git fetch`: get changes from remote repo to local repo
+- `git fetch`: get changes from remote repo to local repo but will not update it
 - `git branch $new_branch`: create new branch
 - `git checkout $branch`: switch between branches in local repo
 - `git merge $dev_branch`: merge "dev" branch into current branch
