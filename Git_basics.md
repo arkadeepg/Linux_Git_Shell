@@ -35,6 +35,24 @@
 - `git stash apply`: get back most recent stashed changes, keeps changes in stash
 - `git stash pop stash@{$}`: choose which stash to apply
 ---
+**Undo Git rebase:**
+- `git cherry-pick $commit_id`
+- `git reflog`
+- `git reset —hard HEAD@{2}`
+
+**Detached HEAD:**
+- `git checkout mainline`
+
+OR
+- `git branch dev`
+- `git checkout dev`
+- `git checkout mainline`
+- `git rebase dev` (if needed)
+
+**Merge multiple commits:**
+- `git rebase -i HEAD~5` (5= how many commits to merge)
+edit which commits to keep: pick/ squash/ fixup
+choose desired commit message
 
 
 ### More can be found here: [Git Basic Commands](https://github.com/arkadeepg/100DaysOfPython/blob/c77ffcb8ae64a5bfca8e6e2bfce9d3c072f335d4/Git%20Basic%20Commands.txt)
