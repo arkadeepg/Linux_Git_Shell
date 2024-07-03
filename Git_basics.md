@@ -25,7 +25,7 @@
 - `git diff --cached`: check staged files
 - `git show $commit_id --name-only`: check files ready to push
 - `git restore --staged $file`: unstage any file
-- `git revert HEAD`: undoes a single commit
+- `git revert HEAD~`: undoes a single commit
 - `git reset $commit_id`: move back to a previous commit and discard any changes after that commit 
 ---
 - `git stash`: takes your uncommitted changes (both staged and unstaged), saves them away for later use
