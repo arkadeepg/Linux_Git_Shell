@@ -1,9 +1,12 @@
 ### List of some useful Linux commands:
 
+- `sudo su -` : SuperUser Do (elevates privileges), Switch User, - (root user)
+
 - `clear` : clear terminal
 - `ls` : list files/ folders in a directory
 - `touch` : create a file
 - `man` : manual for any command, usage: man ls
+
 - `vim` $filename : vim/ vi- text editor, open/ create/ modify any file
 - `:q!` - close without saving. ! - override
 - `:wq` - save and close
@@ -43,12 +46,24 @@
     'd': directory
     'i': symlink (shortcut to a file/directory)
 ```
+
 - `history` : check history of all commands used, usage- history | grep ls
 - `pwd` : present working directory
 - `mkdir` : (make directory)- create a directory
 - `cd` : (change directory)- move to a different directory
 - `rm` : (remove) delete file/ directory. -r recursively(all files/folders inside), -f force
+
+- `df` : check disk space usage
 - `nproc` : check available CPU
 - `free` : check available memory
 - `top` : realtime dynamic view of system performance
+- `ps` : list all running processes, usage: ps -ef
 
+- `curl` : used  for data transfer to or from a server
+- `wget` : used for file downloads in unstable and slow networks
+
+- `find` : look for specific file in a directory
+- `grep` : (global regular expression print)- used to find or search a regular expression or a string
+- `awk` : retrieve information of a specific column
+
+- `trap` : used for catching(traping) specific signal(command)
