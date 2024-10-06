@@ -7,3 +7,9 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 3. Once above steps are completed, use "SSH" to clone your Git repo rather than HTTP.
+
+################################################################################
+
+Change personal email to reveal in commits:
+https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
+

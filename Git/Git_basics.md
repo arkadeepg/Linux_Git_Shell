@@ -11,7 +11,9 @@
 - `git remote add origin $url`: add remote repo in the working directory as "origin"
 - `git pull origin master`: get latest change from remote repo to working directory, (git fetch + git merge)
 - `git status`: check which files are staged
-- `git add .`: stage modified files
+- `git add -u`: stage modified files
+- `git add .`: stage everything without removed files
+- `git add -A`: stage everything (`-u` + `.`) 
 - `git commit -m "$message"`: commit changes to local repo
 - `git clone`: create complete copy of a remote repo
 - `git fetch`: get changes from remote repo to local repo but will not update it
