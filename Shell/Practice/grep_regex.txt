@@ -1,0 +1,40 @@
+grep -w '[0-9]\{10\}' word.txt
+grep '[a-zA-Z0-9_\-\.]\+[@][a-z]\+[\.][a-z]\{2,3\}' word.txt
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+grep = global regular expression print
+
+grep -i = ignore case
+grep -v = invert match
+grep -n = prefix line number
+grep -w = find exact match
+grep -c = count occurences
+grep -o = display only searched pattern
+grep -q = returns exit codes (0-found/1-not found)
+
+grep ^ = searches lines that begin with any pattern
+grep $ = searches lines that end with any pattern
+grep -e = find multiple patterns; grep -e test -e boot
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+regex = Regular Expressions
+
+[abc] = a or b or c
+[^abc] = except a/b/c
+[a-z] = a to z
+[A-Z] = A to Z
+[a-zA-Z] = a to z and A to Z
+[0-9] = 0 to 9
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[]? = occurs 0 or 1 time
+[]+ = occurs 1 or more times
+[]* = occurs 0 or more times
+[]{n} = occurs n times
+[]{n,} = occurs n or more times
+[]{x,y} = occurs min x times max y times
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
