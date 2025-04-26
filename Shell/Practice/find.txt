@@ -1,0 +1,10 @@
+find: to find files/folders in a directory/path
+
+-name = find ./dir -name "file.txt"        [Name of the file/folder to find]
+-iname = find ./dir -iname "f*.txt"        [Partial name of the file/folder to find]
+-type = find ./dir -type f                 [Type of item to find. f (file), d (directory)]
+-maxdepth = find ./dir -maxdepth 3         [Maximum depth/level to find]
+-empty = find ./dir -type f -empty         [Find empty file/folder]
+-mtime = find ./dir -mtime +30             [Find based on last modified]
+-size = find ./dir -size +100M             [Find based on size]
+-delete = find ./dir -mtime +60 -delete    [Delete found file/folder]
