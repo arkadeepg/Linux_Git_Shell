@@ -1,0 +1,18 @@
+head: print initial lines from a file (default: first 10 lines)
+
+-n -> head -n 5 file.txt       [print first 5 lines]
+
+head -n -3 file.txt           [ignore last 3 lines and print rest]
+head -n 5 file.txt log.txt    [print first 5 lines from two files]
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+tail: print terminal lines from a file (default: last 10 lines)
+
+-n -> tail -n 7 file.txt      [print last 7 lines]
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Print between line 10-20 from a file:
+
+head -n 20 test.txt | tail -n 11
