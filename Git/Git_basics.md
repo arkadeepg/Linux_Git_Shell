@@ -55,6 +55,3 @@ OR
 - `git rebase -i HEAD~5` (5= how many commits to merge)
 edit which commits to keep: pick/ squash/ fixup
 choose desired commit message
-
-
-### More can be found here: [Git Basic Commands](https://github.com/arkadeepg/100DaysOfPython/blob/c77ffcb8ae64a5bfca8e6e2bfce9d3c072f335d4/Git%20Basic%20Commands.txt)
