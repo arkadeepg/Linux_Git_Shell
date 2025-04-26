@@ -52,6 +52,7 @@ OR
 - `git rebase dev` (if needed)
 
 **Merge multiple commits:**
+- `git log —oneline -7`
 - `git rebase -i HEAD~5` (5= how many commits to merge)
-edit which commits to keep: pick/ squash/ fixup
-choose desired commit message
+- edit which commits to keep [pick/ squash/ fixup] : pick (1st commit)/ squash(all other), save and exit
+- choose desired commit message and delete rest, save and exit
