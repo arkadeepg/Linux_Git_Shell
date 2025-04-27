@@ -3,5 +3,6 @@ Today's History
     1  touch "history-$(date +%F).txt"
     2  echo "Today's History" >> history-2024-10-08.txt 
     3  echo "\n" >> history-2024-10-08.txt 
-    4  history >> history-2024-10-08.txt 
+    4  grep -wo -e "[\"]\+..\+[\"]" find.txt
+    5  history >> history-2024-10-08.txt 
 
