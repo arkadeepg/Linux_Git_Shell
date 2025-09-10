@@ -6,7 +6,9 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 2. Add SSH key to GitHub account:
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-3. Once above steps are completed, use "SSH" to clone your Git repo rather than HTTP.
+3. Once above steps are completed, use "SSH" to clone your Git repo rather than HTTPS.
+
+`git clone git@github.com:<user/repo.git>`
 
 ################################################################################
 
