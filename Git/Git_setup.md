@@ -17,3 +17,6 @@ https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-
 
 View Git config:
 https://stackoverflow.com/questions/12254076/how-do-i-show-my-global-git-configuration
+
+Add two GitHub accounts on same computer:
+https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer
